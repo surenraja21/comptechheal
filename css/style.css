@@ -1,0 +1,195 @@
+@import "../css/reset.css";@import "../css/grid.css";@import "../css/superfish.css";@import url(http://fonts.googleapis.com/css?family=Capriola);
+@import "../css/ui.totop.css";
+article,aside,audio,canvas,command,datalist,details,embed,figcaption,figure,footer,header,hgroup,keygen,meter,nav,output,progress,section,source,video{display:block}mark,rp,rt,ruby,summary,time{display:inline}
+/* Global properties ======================================================== */
+html {width:100%}
+
+body {font-family:Arial, Helvetica, sans-serif; font-size:13px; line-height:22px; color:#988f8f; min-width:960px; background:url(../images/body_bg.jpg) 50% 0 repeat #f1f1f1;}
+.main {width:960px;padding:0;margin:0 auto;}
+
+/*********************************fonts*************************************/
+.reg {text-transform:uppercase}
+.f_left {float:left}
+.f_right {float:right}
+.align_right {text-align:right}
+.align_center {text-align:center}
+
+.it{font-style:italic}
+.let{letter-spacing:-1px}
+
+/*********************************CLASSES**********************************/
+.m_bottom_zero{ margin-bottom:0 !important;}
+.m_left_zero{ margin-left:0 !important;}
+.p_bottom_zero{ padding-bottom:0 !important;}
+.p_left_zero{ padding-left:0 !important;}
+
+.clear {clear:both;width:100%;line-height:0;font-size:0;}
+.wrapper {width:100%;overflow:hidden}
+.extra_wrapper{ overflow:hidden;}
+.container{width:100%}
+.extra_last, .last{ margin-bottom:0 !important; padding-bottom:0 !important;}
+.extra_last{ border:none !important; background:none !important;}
+.bg_none{ background:none !important;}
+
+/*==================================== Links ======================================================== */
+a {color:#988f8f;outline:none; text-decoration:none; cursor:pointer;}
+a:hover{ color:#41a864; text-decoration:none;}
+
+.button{ display:inline-block; padding:7px 10px 6px; margin: 15px 0 4px; border-radius:9px; font-size: 12px; line-height: 15px; color:#fff; background:url("../images/button.jpg") 0 0 repeat-x #5e9b55;text-transform:uppercase;text-shadow:1px 0 #578f4f;box-shadow: 0 1px 3px rgba(0,0,0,0.42);}
+.button:hover{ background:#523d33;color:#fff;}
+
+/*********************************Displays*************************************/
+.block{ display:block;}
+.inline-block{ display:inline-block;}
+
+/*********************************header*************************************/
+
+header {margin: 0 10px 47px 7px; padding: 60px 0 0 0;}
+header h1{width:232px;float:left;}
+header h1 a {display:block;width:232px;height:62px;background:url(../images/logo.png) 0 0 no-repeat; text-decoration:none; text-indent:-9999px;}
+
+/*********************************content*************************************/
+#content {padding:0px 0px 0px 0px; position:relative;z-index:1;}
+.cont_pad{padding:0 0 0 0 !important;}
+.cont_pad1{padding: 72px 0 55px !important;}
+.cont_pad2{padding: 46px 0 44px !important;}
+.bord_b{border-bottom:1px solid #ffffff;}
+
+/* ============ ASIDE =====================*/
+.list_box{padding: 47px 0 42px;background:#ececec;border-top:1px solid #e2e2e2;border-bottom:1px solid #e3e3e3;}
+.list_box .list1 span{margin-left:4px;}
+
+/*===============================>> Paragraphs <<=============================*/
+
+p {margin-bottom:22px}
+.p2{ margin-bottom:10px;}
+.p3{ margin-bottom:30px;}
+
+/*================================>> LISTS <<========================================*/
+.list1{}
+.list1 li{line-height:15px;margin-bottom:7px;}
+.list1 a{color:#41a864;font-weight:bold;text-decoration:underline;font-size:12px;}
+.list1 a span{display:inline-block;margin: 6px 0 0 0;background:url("../images/list_span.png") 0 0 no-repeat;width:6px;height:5px;}
+.list1 a:hover{text-decoration:none;color:#543f34;}
+
+.list2{}
+.list2 li{ background:url(../images/marker1.png) 0 9px no-repeat; padding-left:15px;margin-bottom:8px;}
+.list2 a{}
+
+
+/*================================>> H <<========================================*/
+h2,h3,h4{ font-weight:normal;}
+h2{font-size: 24px; line-height: 29px; color:#2a2a2a;letter-spacing:-1px;background:url("../images/h2_bg.jpg") 0 bottom repeat-x;padding-bottom:16px;position:relative;}
+
+h2.ind{ margin-bottom:24px;}
+h2.ind1{ margin-bottom:22px;}
+h2.ind2{ margin-bottom:28px;}
+
+h3, .adress dt{font-size: 14px; line-height: 19px; color:#6a5c52; text-transform:uppercase;margin-bottom:20px;}
+h3 span{display:block;margin-top:-1px;}
+/*================================>> GOOGLE FONTS  <<========================================*/
+.tools, .sf-menu, h2, h3, .button, .capriola, .pag a, .adress dt{font-family: 'Capriola', sans-serif;}
+
+/*================================>> hovers <<========================================*/
+.sf-menu li, #slider .pag a, #slider .pag li, #slider .pag span{-webkit-transition: all 0.5s ease;-moz-transition: all 0.5s ease;-o-transition: all 0.5s ease;transition: all 0.5s ease;}
+
+/* Global Blocks*/
+
+.block1{background:#4c352d url('../images/block1.jpg') 0 0 repeat; border-top:3px solid #392721;height:53px;}
+
+.tools{overflow:hidden;float:right;margin: 0 9px 0;padding: 16px 0 19px 0;}
+.tools>li{float:left;margin-left:21px;background:url('../images/tools_li.jpg') 0 0 no-repeat;padding: 0 0 0 21px}
+.tools a, .tools{text-transform:uppercase;color:#fff;font-size:12px;line-height:18px;text-shadow: 0 1px 2px #32241e;}
+.tools>li:first-child{background:none;}
+.tools span{color:#99887f;}
+.tools a.links{display:inline-block;background:url("../images/q_links.png") right 8px no-repeat;padding: 0 13px 0 0;}
+.tools a:hover{color:#988f8f;}
+
+#main_page .block2{height:673px;border-bottom:5px solid #d1ccca;}
+
+.block2{max-height:673px;background:url("../images/block2.jpg") 50% 0 repeat #543f34;border-bottom:5px solid #c7c0be;position:relative;z-index:10;}
+.content1{border-top:1px solid #c5c0be;background:url("../images/block3.jpg") 50% 0 repeat-x #ececec;padding: 72px 0 56px;border-bottom:1px solid #e2e2e2;}
+
+.content2{border-top:1px solid #fff;border-bottom:1px solid #fff;padding: 46px 0 44px;}
+/*********************************page_1*************************************/
+.ext_list>li, .ext_box{ overflow:hidden;}
+.ext_list>li>figure, .ext_box>figure{ float:left;}
+.ext_list>li>div, .ext_box>div{overflow:hidden;}
+
+.program{margin-top:18px;margin-bottom:1px;}
+.program>figure{margin: 0 20px 0 0;padding: 8px 0 0 1px;}
+.program>div{padding-top:5px;overflow:hidden;}
+
+.img{border:1px solid #fff;box-shadow: 0 1px 5px #bbbbbb;margin-bottom:6px;}
+
+.title1{background:url("../images/h2_bg.jpg") 0 bottom repeat-x;position:relative;overflow:hidden;padding-bottom:23px;margin-bottom:24px;}
+.title1 div{float:left;font-size:24px;line-height:29px;color:#2a2a2a;}
+.title1 .left{background:url("../images/title_stripe.jpg") right 0 no-repeat;padding-right:18px;margin-right:20px;word-spacing: -3px;padding-bottom:4px;}
+.title1 .right{font-size:18px;line-height:22px;color:#6a5c52;padding-top:3px;letter-spacing:-1px;}
+
+.welcome>figure{margin: 6px 19px 0 1px;}
+
+.author{font-size:15px;line-height:19px;color:#504138;margin-top:-2px;}
+.author .status{font-size:11px;line-height:14px;color:#6ba668;padding-top:3px;}
+
+/*********************************page_2*************************************/
+.sub_box{padding: 0 25px 0 0;}
+
+.figure{float:left;margin: 4px 20px 0 0;}
+/*********************************page_3*************************************/
+.adm{margin-bottom:30px;}
+.adm>div{}
+.adm>figure{margin: 2px 10px 0 0;width:50px;}
+.box{padding-bottom:40px;}
+/*********************************page_4*************************************/
+.registr>li{margin-bottom:30px;}
+.registr>li>div{}
+.registr>li>figure{width:30px;margin: 4px 0 0 0;}
+
+.procedures{padding: 0 20px 30px 0;}
+.procedures>div{}
+.procedures>figure{width:60px;}
+
+/*********************************page_5*************************************/
+
+
+/* Contact form */
+#contact-form {padding:0px 0 0 0;}
+#contact-form .success {width:246px;padding-bottom:10px;text-align:center;}
+#contact-form textarea, #contact-form input {margin:0;font-size:13px; border:1px solid #e0e0e0; color:#988f8f; padding:7px 8px;outline:none; position:relative; font-family:Arial, Helvetica, sans-serif;background:#fff;width:282px;}
+#contact-form textarea {overflow:auto; height:166px;resize:none; float:left; margin: 0 0 0 0;}	
+#contact-form label {display:block; min-height:42px; overflow:hidden;}	
+#contact-form label.message { display:block; padding-bottom:0; }
+#contact-form .button {margin-right:8px;}	
+#contact-form .error, #contact-form .empty, #contact-form .success {display:none;}	
+#contact-form .error, #contact-form .empty {text-align:left; color:red; font-size:11px; clear:both;}
+#contact-form .buttons2 {overflow:hidden; position:relative; clear:both; padding:20px 0 0 3px;}
+#contact-form .buttons2 a {
+	cursor:pointer;
+	margin-top:0;
+	text-align:center;
+}
+#contact-form span{ display:block; margin: 0px 0 0 5px;}
+
+.map_wrapper{overflow:hidden;display:inline-block;}
+#map_canvas {
+   width:388px;
+   height:354px;
+}
+
+.map{}
+.map>div{padding-top:1px;}
+.map>figure{margin: 6px 20px 0 0;}
+
+.adress{margin-bottom:29px;}
+.adress span{ display:inline-block; width:71px;}
+.adress dt{ margin-bottom:14px;}
+
+.demo{color:#3ca660;font-weight:bold;text-decoration:underline;}
+.demo:hover{ text-decoration:none;}
+/****************************footer************************/
+footer {padding:30px 0;width:940px;overflow:hidden;margin:0 auto;font-size:11px;font-weight:bold;line-height:14px;text-transform:uppercase;}
+footer, footer a{color:#948e8e;}
+footer a:hover{color:#41a864;}
+footer .privacy{float:left;}
+footer .social{float:right;}
